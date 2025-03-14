@@ -7,7 +7,7 @@ def index(request):
     return HttpResponse('hola mundo')
 
 def detail(request, question_id):
-    return HttpReponse('Estas viendo la pregunta %s' % question_id)
+    return HttpResponse('Estas viendo la pregunta %s' % question_id)
 
 def results(request, question_id):
     response = 'Estas viendo la respuesta para la pregunta %s'
